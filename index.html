@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <section class="logo-container">
+        <a href=""><img src="cox_logo.png" alt="Cox"></a>
+    </section>
+    <hr>
+    <section class="form-container">
+        <div class="half-width form-half">
+            <div id="form-area">
+
+                <form action="login.php" method="post">
+                    <h1>Welcome Back</h1>
+                    <label class="cera-medium" for="user_id">User ID</label>
+                    <div class="id-container">
+                        <input class="id-width" type="text" required>
+                    </div>
+                    <label class="cera-medium" for="password">Password</label>
+                    <div class="password-container">
+                        <input id="userPassword" class="pass-width" type="password" required>
+                        <span class="show-btn">
+                            <i onclick="Toggle()" class="fas fa-eye"></i>
+                        </span>
+                    </div>
+
+                    <div class="remember-container">
+                        <input class="check" type="checkbox" id="remember" name="remember">
+                        <label class="remember" for="remember">Remember user ID</label>
+                    </div>
+                    <button type="submit">Sign in</button>
+                    <ul>
+                        <li><a href="#">Forgot User ID?</a></li>
+                        <li><a href="#">Forgot Password?</a></li>
+                        <li><a href="#">New here? Sign up today</a></li>
+                        <li><a href="#">Need Help Signing In?</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <div id="dad-daughter" class="half-width">
+
+        </div>
+
+    </section>
+    <hr>
+    <footer>
+        <p title="© 1998 - 2022 Cox Communications, Inc.">© 1998 - 2022 Cox Communications, Inc.</p>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

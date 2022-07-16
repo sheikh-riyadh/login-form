@@ -1,0 +1,211 @@
+@font-face {
+    font-family: cera-bold;
+    src: url(cera-pro/Cera\ Pro\ Bold.otf);
+}
+
+@font-face {
+    font-family: cera-medium;
+    src: url(cera-pro/Cera\ Pro\ Medium.otf);
+}
+
+@font-face {
+    font-family: cera-regular;
+    src: url(cera-pro/Cera\ Pro\ Light.otf);
+}
+
+body {
+    font-family: cera-medium;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: cera-bold;
+    color: #285A93;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+label {
+    color: #2f3f4a;
+    font-size: 14px;
+}
+
+.logo-container {
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+hr {
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(0, 170, 244, 1) 30%, rgba(0, 210, 88, 1) 95%, rgba(0, 210, 88, 1) 100%) !important;
+    padding-top: 8px;
+}
+
+.cera-medium {
+    font-family: cera-medium;
+}
+
+form input {
+    display: block;
+    padding: 10px 30px 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(199, 199, 199);
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form {
+    width: 300px;
+    background-color: #F2F6F7;
+    padding: 20px 100px;
+    margin: 100px 100px 100px 230px;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 0 0 10px #76cfff;
+    border: 1px solid rgba(0, 0, 0, 0.877);
+}
+
+.pass-width,
+.id-width {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.check {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label:before {
+    border: 3px solid #0e155b;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 18px;
+    margin: 0 .25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 18px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked+label:before {
+    background: #0e155b;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+}
+
+
+.remember-container {
+    display: flex;
+}
+
+.remember {
+    padding: 5px 5px 20px 0;
+}
+
+
+
+
+
+button {
+    border: none;
+    padding: 10px 70px;
+    font-size: 17px;
+    background-color: #285A93;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: cera-medium;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    font-size: 14px;
+    color: #285a93;
+    font-family: cera-regular;
+}
+
+.form-container {
+    display: flex;
+}
+
+.form-half {
+    z-index: 10;
+    position: relative;
+}
+
+.half-width {
+    width: 50%;
+}
+
+#ad-daughter {
+    background-image: url('dad-with-daughter.');
+}
+
+.password-container,
+.id-container {
+    position: relative;
+    width: 300px;
+    background-color: transparent;
+}
+
+.show-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    color: rgb(155, 155, 155);
+}
+
+#dad-daughter {
+    background-image: url(dad-with-daughter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    color: #202020;
+    background-color: #F2F6F7;
+    padding: 10px;
+}
+
+footer>p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+    width: 120px;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
